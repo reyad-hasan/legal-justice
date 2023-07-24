@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- head section -->
 
 <head>
     <meta charset="UTF-8">
@@ -33,16 +34,46 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        'primary': '#707070',
                     }
                 }
             }
         }
     </script>
 </head>
+<!-- body section -->
 
 <body>
-    <h1 class="font-poppins text-7xl">hello</h1>
+    <!-- header section -->
+    <header>
+        <!-- nav section -->
+        <nav class="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between mt-10">
+            <!-- logo -->
+            <div>
+                <a href="#"><img src="./images/logo2.png" alt=""></a>
+            </div>
+            <!-- manu -->
+            <div>
+                <ul class="flex flex-col md:flex-row gap-2 md:gap-10 text-primary text-lg my-5 lg:my-0">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a href="#">Case <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a href="#">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a href="#">Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+                </ul>
+            </div>
+            <!-- button -->
+            <button class="btn">Free Consultation</button>
+        </nav>
+    </header>
+    <!-- main section -->
+    <main>
+
+    </main>
+    <!-- footer section -->
+    <footer>
+
+    </footer>
 </body>
 
 </html>
