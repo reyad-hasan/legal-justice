@@ -35,6 +35,10 @@
                 extend: {
                     colors: {
                         'primary': '#707070',
+                        'btn-bg': '#B68C5A',
+                    },
+                    backgroundImage: {
+                        'hero-bg': "url('/images/banner.png')",
                     }
                 }
             }
@@ -65,6 +69,22 @@
             <!-- button -->
             <button class="btn">Free Consultation</button>
         </nav>
+        <!-- hero section -->
+        <section class="max-w-screen-xl px-5 lg:px-0 mx-auto mt-20">
+            <div class="hero bg-hero-bg h-[650px] bg-center bg-cover text-white space-y-7">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-7xl font-bold font-eb-garamond">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-5 text-[#A0A0A0]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <form action="#">
+                            <input class="py-3 rounded-lg pl-3 pr-20 mb-3" type="text" placeholder="Search your services">
+                            <button class="btn bg-btn-bg border-0 text-white ml-2">Get Started</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <!-- main section -->
     <main>
